@@ -5,16 +5,16 @@
 #include <stdio.h>
 
 typedef struct snake_t {
-  unsigned int tail_row;
-  unsigned int tail_col;
-  unsigned int head_row;
-  unsigned int head_col;
+  unsigned int tail_row; //The row of the snake's tail.
+  unsigned int tail_col; //The column of the snake's tail.
+  unsigned int head_row; //The row of the snake's head.
+  unsigned int head_col; //The column of the snake's head.
 
-  bool live;
+  bool live; //true if the snake is alive, and false if the snake is dead.
 } snake_t;
 
 typedef struct game_state_t {
-  unsigned int num_rows;
+  unsigned int num_rows; 
   char **board;
 
   unsigned int num_snakes;
