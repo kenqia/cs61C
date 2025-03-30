@@ -3,12 +3,10 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "make build",
+			"label": "make snake",
 			"command": "make",
-			"args": [
-					],
-			"problemMatcher": [
-			],
+			"args": ["snake"],
+			"problemMatcher": [],
 			"group": "build",
 		}
 	]
