@@ -10,7 +10,7 @@ main:
     mv t0 a0   # the pointer is returned in a0
 
     # Fill the array with 0's
-    li t1 0  # t1 is the index
+    li t1 1  # t1 is the index
     li t2 10 # t2 is the size of the array
 
 loop:
@@ -23,7 +23,7 @@ loop:
     # Check if we are done
     # If not, loop
     bge t2 t1 loop
-
+    jal free
     # Exit the program
     li a0 0
     jal exit
