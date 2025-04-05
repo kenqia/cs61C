@@ -1,1 +1,1 @@
-# 61C Project 2: CS61Classify
+# 61C Project 1: snek
